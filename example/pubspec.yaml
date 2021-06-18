@@ -11,7 +11,3 @@ dependencies:
     sdk: flutter
   remote_layout:
     path: ..
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
