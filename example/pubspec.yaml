@@ -1,0 +1,17 @@
+name: remote_layout_example
+description: Example usage of remote_layout
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  remote_layout:
+    path: ..
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
