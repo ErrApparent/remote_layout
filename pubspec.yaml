@@ -1,5 +1,5 @@
 name: remote_layout
-description: Package for implementing layout dependecies between remote parts of the render tree
+description: Flutter package for implementing layout dependecies between remote parts of the render tree
 publish_to: none
 version: 0.0.1
 

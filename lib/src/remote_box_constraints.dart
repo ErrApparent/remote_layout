@@ -73,6 +73,8 @@ class RenderRemoteLayoutTransmitter extends RenderProxyBox {
 
   @override
   void setupParentData(covariant RenderObject child) {
+    // If the child of the associated widget is a ParentDataWidget, this allows the parent to interact correctly with it.
+    // eg, Expanded ← RemoteLayoutTransmitter ← Row
     child.parentData = parentData;
   }
 
